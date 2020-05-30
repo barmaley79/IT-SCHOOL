@@ -1,0 +1,57 @@
+.header {
+    width: 90%;
+    height: 80px;
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    z-index: 3;
+  }
+  .sidemenu{
+      height:450px;
+      width: 10%;
+      background-color:lightblue;
+      position: fixed;
+      margin-left: 4.5%;
+      margin-top: 70px;
+      z-index: 2;
+
+  }
+  .mainblock{
+      width: 85%;
+      height: 450px;
+      position: absolute;
+      z-index: 1;
+      top:80px;
+      right: 5%;
+      background-color: lightgrey;
+  }
+  .list{
+    position: absolute;
+    left: 10%;
+  }
+  .text{
+    position: absolute;
+    left: 10%;
+  }
+  .footer{
+    width: 90%;
+    height: 80px;
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+    z-index: 3;
+  }
