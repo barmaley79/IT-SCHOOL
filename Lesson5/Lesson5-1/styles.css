@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+
+.body{
+    font-family: 'Lato', sans-serif;;
+}
+.wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.center{
+    max-width: 1200px;
+    width: 90%;
+    margin:0 auto ;
+}
+
+.level1 {
+    width: 1200px;
+    /*background-color: aliceblue;*/
+    height: 15vh;
+    max-height: 200px;
+}
+.level1box1 {
+    width: 29.5%;
+    height: 13vh;
+    padding: 2px;
+    background-color:#fa1515;
+    display: inline-block;
+}
+.level1box2 {
+    width: 69.5%;
+    height: 13vh;
+    padding: 2px; 
+    background-color:#faa267;
+    display: inline-block;
+}
+.level2 {
+    width: 1200px;
+    /*background-color: rgb(255, 255, 240);*/
+    height: 60vh;
+    max-height: 400px;
+}
+.level2box1 {
+    width: 99.9%;
+    height: 58vh;
+    /*margin: 0 auto;*/
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    background-color:#15fa9b;
+    display: block;
+    /*position: inherit;*/
+}
+.level3 {
+    width: 1200px;
+    background-color: rgb(240, 254, 255);
+    height: 20vh;
+    max-height: 300px;
+    margin-top: 2vh;
+}
+.level3box1 {
+    width: 33.1%;
+    height: 18vh;
+    /*padding: 2px;*/
+    background-color:#fa5d15;
+    display: inline-block;
+    margin-top: 2px;
+}
+.level3box2 {
+    width: 33.1%;
+    height: 18vh;
+    /*padding: 2px;*/
+    background-color:#7667fa;
+    display: inline-block;
+    margin-top: 2px;
+}
+.level3box3 {
+    width: 33.1%;
+    height: 18vh;
+    /*padding: 2px;*/
+    background-color:#b867fa;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+@media(max-width: 900px){
+    .level2box1{
+        background-color:#fa1515;
+    }
+.level1box1{
+    background-color:#faa267;
+}
+.level1box2{
+    background-color:#b867fa;
+}
+.level3box1{
+    background-color:#15fa9b;
+    width: 49.8%;
+}
+.level3box2{
+    width: 49.8%;
+}
+.level3box3{
+    width: 0%;
+    height: 0%;
+}
+
+}
+@media(max-width: 500px){
+  
+.level1 {
+    height: 15vh;
+    max-height: 200px;
+    margin-bottom: 1px;
+}
+.level2 {
+    height: 15vh;
+    max-height: 200px;
+}
+.level3 {
+    height: 50vh;
+    max-height: 400px;
+    margin-top: 1vh;
+}       
+.level1box1{
+    background-color:#15fa9b;
+    width: 99.9%;
+    height: 15vh;
+    margin-bottom: 4px;
+}
+.level2box1{
+    background-color:#b867fa;
+    width: 99.9%;
+    height: 15vh;
+ }
+.level3box1{
+    background-color:#fa1515;
+    width: 99.9%;
+    height: 50vh;
+    margin-top: 0px;
+}
+level1box2{
+    width: 0%;
+    height: 0%;
+}
+.level3box2{
+    width: 0%;
+    height: 0%;
+}
+.level3box3{
+    width: 0%;
+    height: 0%;
+}
+
+}
+
